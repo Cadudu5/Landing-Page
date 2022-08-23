@@ -29,6 +29,10 @@ body {
     padding-left: 500px;
 }
 
+.cabeçalho-menu a:hover{
+    font-size: 20px;
+}
+
 .cabeçalho-menu-imagem{
     margin-left: 195px;
 
@@ -43,9 +47,12 @@ body {
     
 }
 
+
 .conteudo{
-    margin-bottom: 48px;
-    border-top: 3px solid rgb(28, 200, 243);
+    margin-bottom: 1px;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, rgb(41, 197, 236), rgb(245, 82, 218));
 }
 
 .conteúdo-principal{
@@ -75,6 +82,11 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 45px;
     color: aliceblue;
+
+}
+
+.conteúdo-principal-lista{
+    font-size: 24px;
 }
 
 .conteúdo-principal-escrito-subtítulo{
@@ -105,7 +117,9 @@ body {
 }
 
 .conteúdo-secundário-item{
+    font-size: 20px;
     font-family: 'Nuosu SIL', serif;
+    padding-bottom: 20px;
 }
 
 .rodapé{
